@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="dev-texlive/texlive-latexextra
-	>=dev-tex/biblatex-3.4
-	>=dev-tex/biber-2.5"
+	>=dev-tex/biblatex-3.6
+	>=dev-tex/biber-2.6"
 DEPEND="${RDEPEND}"
 
 src_install() {
